@@ -20,6 +20,10 @@
         rel="stylesheet"
         href="./style.css"
     />
+    <link
+        href="https://fonts.googleapis.com/css?family=Rubik&display=swap"
+        rel="stylesheet"
+    >
 
     <title>Bootstrap Portfolio</title>
 </head>
@@ -35,18 +39,23 @@
             onclick="toggleNav()"
         >&times;</a>
         <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Clients</a>
+        <a href="#">Projects</a>
         <a href="#">Contact</a>
     </div>
-    <div id="main">
+    <div
+        id="main"
+        class="
+        bg-light"
+    >
 
         <div class="pos-f-t">
             <nav class="navbar navbar-dark bg-dark">
                 <a
                     href="#"
                     class="navbar-brand mb-0 h1"
-                >Navbar</a>
+                >
+                    <h1>James Schreiber</h1>
+                </a>
 
                 <button
                     class="navbar-toggler"
@@ -58,7 +67,7 @@
             </nav>
         </div>
         <main>
-            <div class="jumbotron">
+            <div class="jumbotron bg-dark text-white">
                 <h1 class="display-4">Hello, world!</h1>
                 <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
                     attention
@@ -73,14 +82,14 @@
                 >Learn more</a>
             </div>
 
-            <div class="card">
+            <div class="card bg-dark text-white">
                 <h5 class="card-header">Featured</h5>
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
                     <div class="row">
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card bg-secondary text-white">
                                 <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
@@ -93,7 +102,7 @@
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <div class="card">
+                            <div class="card bg-secondary text-gray-dark">
                                 <div class="card-body">
                                     <h5 class="card-title">Special title treatment</h5>
                                     <p class="card-text">With supporting text below as a natural lead-in to additional
@@ -106,15 +115,100 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="card bg-secondary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to additional
+                                        content.</p>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary"
+                                    >Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="row nest-row">
+                                <div class="card bg-secondary text-white">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional
+                                            content.</p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary"
+                                        >Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row nest-row">
+                                <div class="card bg-secondary text-white">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <p class="card-text">With supporting text below as a natural lead-in to
+                                            additional
+                                            content.</p>
+                                        <a
+                                            href="#"
+                                            class="btn btn-primary"
+                                        >Go somewhere</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card bg-secondary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                        additional
+                                        content.</p>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary"
+                                    >Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card bg-secondary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                        additional
+                                        content.</p>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary"
+                                    >Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="card bg-secondary text-white">
+                                <div class="card-body">
+                                    <h5 class="card-title">Special title treatment</h5>
+                                    <p class="card-text">With supporting text below as a natural lead-in to
+                                        additional
+                                        content.</p>
+                                    <a
+                                        href="#"
+                                        class="btn btn-primary"
+                                    >Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <br>
-                    <a
-                        href="#"
-                        class="btn btn-primary"
-                    >Go somewhere</a>
                 </div>
             </div>
             <br />
-            <div class="card">
+            <div class="card bg-dark text-white">
                 <h5 class="card-header">Featured</h5>
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
@@ -162,76 +256,10 @@
             <br />
         </main>
         <footer>
-            <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
-                <a
-                    class="navbar-brand"
-                    href="#"
-                >Bottom navbar</a>
-                <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarCollapse"
-                    aria-controls="navbarCollapse"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-                >
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div
-                    class="collapse navbar-collapse"
-                    id="navbarCollapse"
-                >
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item active">
-                            <a
-                                class="nav-link"
-                                href="#"
-                            >Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link"
-                                href="#"
-                            >Link</a>
-                        </li>
-                        <li class="nav-item">
-                            <a
-                                class="nav-link disabled"
-                                href="#"
-                                tabindex="-1"
-                                aria-disabled="true"
-                            >Disabled</a>
-                        </li>
-                        <li class="nav-item dropup">
-                            <a
-                                class="nav-link dropdown-toggle"
-                                href="#"
-                                id="dropdown10"
-                                data-toggle="dropdown"
-                                aria-haspopup="true"
-                                aria-expanded="false"
-                            >Dropup</a>
-                            <div
-                                class="dropdown-menu"
-                                aria-labelledby="dropdown10"
-                            >
-                                <a
-                                    class="dropdown-item"
-                                    href="#"
-                                >Action</a>
-                                <a
-                                    class="dropdown-item"
-                                    href="#"
-                                >Another action</a>
-                                <a
-                                    class="dropdown-item"
-                                    href="#"
-                                >Something else here</a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+            <nav class="navbar fixed-bottom navbar-dark bg-dark">
+                <span class="navbar-text">
+                    Powered by Caffine & Nicotine &copy;
+                </span>
             </nav>
         </footer>
     </div>

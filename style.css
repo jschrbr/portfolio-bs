@@ -1,3 +1,7 @@
+* {
+  font-family: "Rubik", sans-serif;
+}
+
 /* The side navigation menu */
 .sidenav {
   height: 100%; /* 100% Full-height */
@@ -60,4 +64,17 @@ main {
   main {
     margin: 20px 0px 50px 0px;
   }
+}
+
+.card {
+  height: 100%;
+}
+
+.row {
+  margin: 16px;
+}
+
+.nest-row {
+  margin-left: 0px;
+  margin-right: 0px;
 }

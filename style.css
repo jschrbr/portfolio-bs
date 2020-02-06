@@ -47,7 +47,7 @@
 
 main {
   margin: 20px;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
@@ -63,6 +63,13 @@ main {
 @media screen and (max-width: 768px) {
   main {
     margin: 20px 0px 50px 0px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact {
+    margin-left: 30%;
+    margin-right: 30%;
   }
 }
 

@@ -50,29 +50,6 @@ main {
   margin-bottom: 100px;
 }
 
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  main {
-    margin: 20px 0px 50px 0px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .contact {
-    margin-left: 30%;
-    margin-right: 30%;
-  }
-}
-
 .card {
   height: 100%;
 }
@@ -85,10 +62,6 @@ main {
   margin-top: 16px;
   margin-bottom: 16px;
 }
-
-/* .row {
-  margin: 16px;
-} */
 
 .nest-row {
   display: inline-block;
@@ -118,4 +91,38 @@ main {
 
 .right {
   float: right;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  main {
+    margin: 20px 0px 50px 0px;
+  }
+  .title {
+    font-size: larger;
+  }
+  .display-4,
+  .card-header {
+    font-size: xx-large;
+  }
+  .about-image {
+    width: 60%;
+    height: auto;
+    margin-right: 0px;
+  }
+  .lead {
+    font-size: 1em;
+  }
+  .follow {
+    font-size: 0.7em;
+  }
 }

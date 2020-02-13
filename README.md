@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <h1 align="center">Welcome to portfolio-bs 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-00.01-blue.svg?cacheSeconds=2592000" />
@@ -26,16 +25,14 @@ Also included sidebar navivigation
 
 👤 **James Schreiber**
 
-* Website: https://jschrbr.github.io/
-* Github: [@jschrbr](https://github.com/jschrbr)
-* LinkedIn: [@https:\/\/www.linkedin.com\/in\/james-schreiber-392016bb\/](https://linkedin.com/in/https:\/\/www.linkedin.com\/in\/james-schreiber-392016bb\/)
+- Website: https://jschrbr.github.io/
+- Github: [@jschrbr](https://github.com/jschrbr)
+- LinkedIn: [@https:\/\/www.linkedin.com\/in\/james-schreiber-392016bb\/](https://linkedin.com/in/https://www.linkedin.com/in/james-schreiber-392016bb/)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
-=======
-# portfolio-bs
->>>>>>> 785fee1d90ec6525c7cbff5f0a6fa7bd630eb799
+---
+
+# _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

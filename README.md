@@ -27,7 +27,7 @@ Also included sidebar navivigation
 
 - Website: https://jschrbr.github.io/
 - Github: [@jschrbr](https://github.com/jschrbr)
-- LinkedIn: [@https:\/\/www.linkedin.com\/in\/james-schreiber-392016bb\/](https://linkedin.com/in/https://www.linkedin.com/in/james-schreiber-392016bb/)
+- LinkedIn: [@techsmechs](https://linkedin.com/in/)
 
 ## Show your support
 
